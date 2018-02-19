@@ -3396,7 +3396,12 @@ body {
 .nav-pills .nav-item .nav-link[disabled] {
     opacity: .5;
 }
-
+.nav-btn-primary{
+    background-color:rgba(154, 154, 191, 0.68);
+}
+.nav-primary {
+    background-color: rgba(21, 49, 222, 1);
+}
 .nav-pills .nav-item i {
     display: block;
     font-size: 20px;
@@ -3447,7 +3452,6 @@ body {
 
 .active {
     background-color: #FFFFFF;
-    color: #f96332;
 }
 
 .tab-space {
@@ -5111,7 +5115,7 @@ Created using IcoMoon - icomoon.io
     padding-right: 24px;
     padding-bottom: 0px;
     opacity: .8;
-    background-color: rgba(248, 99, 50, 1);
+    background-color: rgba(21, 49, 222, 0.81);
 }
 
 .footer.footer-default {
@@ -5169,7 +5173,7 @@ Created using IcoMoon - icomoon.io
     margin-top: -60px;
     padding: 0 15px;
     width: 100%;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .landing-page .header {
@@ -5591,16 +5595,16 @@ Created using IcoMoon - icomoon.io
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.page-header[filter-color="orange"] {
-    background: rgba(44, 44, 44, 0.2);
+.page-header[filter-color="blue"] {
+    background: rgba(154, 154, 191, 0.68);
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -webkit-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -o-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -moz-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
     /* Standard syntax */
 }
 
@@ -6025,15 +6029,15 @@ Created using IcoMoon - icomoon.io
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .sidebar-collapse .navbar-collapse:before {
-        background: #f96332;
+        background:  rgba(154, 154, 191, 0.68);
         /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+        background: -webkit-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
         /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#f96332 0%, #000 80%);
+        background: -o-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
         /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#f96332 0%, #000 80%);
+        background: -moz-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#f96332 0%, #000 80%);
+        background: linear-linear-gradient(0deg, rgba(154, 154, 191, 0.68), rgba(27, 3, 224, 0.72));
         /* Standard syntax (must be last) */
         opacity: 0.76;
         filter: alpha(opacity=76);
@@ -6903,15 +6907,15 @@ Created using IcoMoon - icomoon.io
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .burger-menu .navbar-collapse:before {
-        background: #f96332;
+        background: rgba(227, 227, 227, 0.26);
         /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+        background: -webkit-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
         /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#f96332 0%, #000 80%);
+        background: -o-linear-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
         /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#f96332 0%, #000 80%);
+        background: -moz-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#f96332 0%, #000 80%);
+        background: linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
         /* Standard syntax (must be last) */
         opacity: 0.76;
         filter: alpha(opacity=76);

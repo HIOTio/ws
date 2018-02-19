@@ -6,13 +6,14 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Now Ui Kit by Creative Tim</title>
+    <title>HIOT</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
@@ -20,11 +21,12 @@
 
 <body class="index-page sidebar-collapse" data-spy="scroll" style="position: relative; ">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+    <nav class="navbar navbar-expand-lg nav-primary fixed-top navbar-transparent" id="mainnav" color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
-          Now Ui Kit
+                <a class="navbar-brand" href="#" rel="tooltip" data-placement="bottom">
+                    <img class="n-logo" src="./assets/img/white_logo.png" width="30" height="30" alt="">
+         &nbsp;HIOT
         </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -34,47 +36,45 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
+                        <li class="nav-item">
+                                <a class="nav-link btn nav-btn-primary" href="#overview">
+                                    <i class="now-ui-icons files_paper"></i>
+                                    <p>Overview</p>
+                                </a>
+                            </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-                            <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                            <p>Download</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="./documentation/tutorial-components.html" target="_blank">
+                        <a class="nav-link btn nav-btn-primary" href="./documentation/tutorial-components.html" target="_blank">
                             <i class="now-ui-icons files_paper"></i>
                             <p>Component (docs)</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="#components">
+                        <a class="nav-link btn nav-btn-primary" href="#components">
                             <i class="now-ui-icons files_paper"></i>
                             <p>Components</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro" target="_blank">
-                            <i class="now-ui-icons arrows-1_share-66"></i>
-                            <p>Upgrade to PRO</p>
-                        </a>
+                        <a class="nav-link btn btn-neutral" 
+                        data-toggle="popover" 
+                        title="CONTACT US"  
+                        data-placement="bottom"
+                        data-container="body"  data-html="true" href="#" 
+                        >
+                    <i class="now-ui-icons arrows-1_share-66"></i>
+                    <p>Contact Us</p>
+
+                </a>
+            </li>
+                    <!-- <app-notification ></app-notification> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/@healy.mark.a" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                            <p class="d-lg-none d-xl-none">Twitter</p>
-                        </a>
+                        <a class="nav-link" href="https://steemit.com/@hiot" target="_blank">Steemit</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="d-lg-none d-xl-none">Facebook</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="d-lg-none d-xl-none">Instagram</p>
-                        </a>
+                        <a class="nav-link" href="https://github.com/HIOTio/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -82,47 +82,185 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
+
+        <div class="page-header clear-filter" filter-color="blue">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/iot_background.jpg');">
             </div>
             <div class="container">
                 <div class="content-center brand">
-                    <img class="n-logo" src="./assets/img/now-logo.png" alt="">
-                    <h1 class="h1-seo">Now UI Kit.</h1>
-                    <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+                    <img class="n-logo" src="./assets/img/white_logo.png" alt="">
+                    <h1 class="h1-seo">HIOT</h1>
+                    <h3>HIERARCHICAL IOT</h3>
                 </div>
-                <h6 class="category category-absolute">Designed by
-                    <a href="http://invisionapp.com/" target="_blank">
-                        <img src="./assets/img/invision-white-slim.png" class="invision-logo" />
-                    </a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">
-                        <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
-                    </a>.</h6>
+                <h6 class="category category-absolute">100% Free and Open Source</h6>
             </div>
-        </div>
+         </div>
         <div class="main">
-            <div class="section section-images">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="hero-images-container">
-                                <img src="assets/img/hero-image-1.png" alt="">
-                            </div>
-                            <div class="hero-images-container-1">
-                                <img src="assets/img/hero-image-2.png" alt="">
-                            </div>
-                            <div class="hero-images-container-2">
-                                <img src="assets/img/hero-image-3.png" alt="">
+
+            
+                    <div class="section section-tabs" id="overview"> 
+                            <div class="container">
+                                <h1>Overview</h1>
+                                <div class="col-md-10 ml-auto mr-auto">
+                                    <p class="category">What is HIOT</p>
+                                    <!-- Tabs with Background on Card -->
+                                    <div class="card">
+                                        <ul class="nav nav-tabs nav-tabs-neutral justify-content-center nav-primary" role="tablist" >
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Overview</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Open Source</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Repos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Cloud</a>
+                                            </li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <!-- Tab panes -->
+                                            <div class="tab-content text-center">
+                                                <div class="tab-pane active" id="home1" role="tabpanel">
+                                                <p>    HIOT - pronounced Hi Oh Tee is the Hierarchical Internet Of Things and 
+                                                    is both an open protocol and an end-to-end IOT ecosystem built on NodeJS.</p>
+                                                    <p>Designed to maximise scalability and interoperability, HIOT is not just about the central platform, 
+                                                        but uses a roles based architecture to enable you to distribute functionality and remove bottlenecks 
+                                                        across a deployment. 
+                                                        Roles such as Aggregators and Bridges are what differentiate HIOT as these allow for integration with any 
+                                                        number of 3rd party solutions and devices while also enabling traditional platform-based data 
+                                                        processing tasks to be executed on any device.
+                                                </p><p>
+                                                    Any device capable of running NodeJS can run HIOT<br/>
+                                                    Existing IOT solutions can be extended to support HIOT by implementing the open HIOT protocol
+                                                </p>
+                                            </div>
+                                                
+                                                    <div class="tab-pane" id="profile1" role="tabpanel">
+                                               Every part of HIOT is open-source and available from our GitHub repos, the main ones being
+                                                        
+                                            </div>
+                                                <div class="tab-pane" id="messages1" role="tabpanel">
+                                                    <ul>
+                                                        <li><b>Platform</b>, the core cloud plsatform</li>
+                                                        <li><b>Device</b>, Any device in a HIOT deployment shares a common base, with roles and addtional handler files augmenting the functionality</li>
+                                                    </ul>   
+                                                </div>
+                                                <div class="tab-pane" id="settings1" role="tabpanel">
+                                                    <p>
+                                                        As HIOT develops and matures, we will be rolling out a SaaS solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Tabs on plain Card -->
+                                </div>
+                                <div class="row">
+                                        <div class=" col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
+                                                <p class="category">HIOT is an Open Protocol for IOT solutions</p>
+                                                <!-- Nav tabs -->
+                                                <div class="card">
+                                                    <ul class="nav nav-tabs nav-tabs-neutral justify-content-center nav-primary" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" data-toggle="tab" href="#platform_overview" role="tab">
+                                                                <i class="now-ui-icons objects_umbrella-13"></i> Overview
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#specs" role="tab">
+                                                                <i class="now-ui-icons shopping_cart-simple"></i> Specification
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#roadmap" role="tab">
+                                                                <i class="now-ui-icons design_bullet-list-67"></i> Roadmap
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="card-body">
+                                                        <!-- Tab panes -->
+                                                        <div class="tab-content text-center">
+                                                            <div class="tab-pane active" id="platform_overview" role="tabpanel">
+                                                                <p>The HIOT Protocol is designed to cover all IOT communications</p>
+                                                            </div>
+                                                            <div class="tab-pane" id="specs" role="tabpanel">
+                                                          ...
+                                                         </div>
+                                                  
+                                                            <div class="tab-pane" id="roadmap" role="tabpanel">
+                                                                <p>
+                                                                    Work in Progres available on <a target="_blank" 
+                                                                    href="https://github.com/HIOTio/HIOTProto">GitHub</a>
+                                                                </p>
+                                                                <p>
+                                                                    Draft 1.0 due Q2 2018
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-lg-8 col-xl-6 ml-auto mr-auto">
+                                                    <p class="category">HIOT is an open-source IOT ecosystem</p>
+                                                    <!-- Nav tabs -->
+                                                    <div class="card">
+                                                        <ul class="nav nav-tabs nav-tabs-neutral justify-content-center nav-primary" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                                                    <i class="now-ui-icons objects_umbrella-13"></i> Home
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                                    <i class="now-ui-icons shopping_cart-simple"></i> Profile
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                                                    <i class="now-ui-icons shopping_shop"></i> Messages
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                                    <i class="now-ui-icons ui-2_settings-90"></i> Settings
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="card-body">
+                                                            <!-- Tab panes -->
+                                                            <div class="tab-content text-center">
+                                                                <div class="tab-pane active" id="home" role="tabpanel">
+                                                                    <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be
+                                                                        pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                                                </div>
+                                                                <div class="tab-pane" id="profile" role="tabpanel">
+                                                                    <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities,
+                                                                        to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                                                </div>
+                                                                <div class="tab-pane" id="messages" role="tabpanel">
+                                                                    <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be
+                                                                        pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                                                </div>
+                                                                <div class="tab-pane" id="settings" role="tabpanel">
+                                                                    <p>
+                                                                        "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that
+                                                                        things could be at."
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div id="components">
-                components
-            </div>
-            <div class="section section-basic">
+        
+            <div class="section section-tabs"  id="components">
                 <div class="container">
+                        <h1>Components</h1>
                     <h3 class="title">Basic Elements</h3>
                     <div id="buttons">
                         <h4>Buttons</h4>
@@ -1288,7 +1426,7 @@
             </div>
         </div>
         <!--  End Modal -->
-        <nav class="navbar fixed-bottom footer" style="margin-bottom:0px">
+        <nav class="navbar fixed-bottom footer nav-primary" style="margin-bottom:0px">
             <div class="container">
                 <nav>
                     <ul>
@@ -1320,6 +1458,38 @@
             </div>
         </nav>
     </div>
+    <div id="popover-content">
+            <p>Want to learn more? Just fill in your details and we'll get back to you.</p>
+            <div class="row bg-grey">
+                    <div *ngIf="errMsg">
+                        <div class="panel panel-danger">
+                            <div class="panel-body">{{errMsg}}</div>
+                        </div>
+                    </div>
+                    <div *ngIf="okMsg">
+                        <div class="panel panel-ok">
+                            <div class="panel-body">{{okMsg}}</div>
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <input class="form-control" [(ngModel)]="contact.name" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="email" [(ngModel)]="contact.email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    <textarea class="form-control" id="comment" [(ngModel)]="contact.comment" name="comment" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" (click)="sendMail()">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                    </div>
+                </div>
+
+        </div>
 </body>
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
@@ -1333,7 +1503,40 @@
 <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
-<script type="text/javascript">
+<script>
+$('body').scrollspy({target: ".navbar", offset: 50});
+
+// Add smooth scrolling on all links inside the navbar
+$("#mainnav a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+
+  } // End if
+
+});
+$("[data-toggle=popover]").popover({
+    html: true, 
+	content: function() {
+          return $('#popover-content').html();
+        }
+});
     $(document).ready(function() {
         // the body of this function is in assets/js/now-ui-kit.js
         nowuiKit.initSliders();
